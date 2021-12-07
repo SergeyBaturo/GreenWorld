@@ -1,0 +1,805 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.cws{
+    margin-top: 0px!important;
+}
+
+.kr{
+    margin-top: 0px!important;
+}
+
+p{
+    margin-bottom: 0px;
+}
+
+.container{
+    max-width: 1027px;
+    margin: auto;
+    text-align: center;
+}
+
+#carouselExampleCaptions .carousel-caption{
+    display: block!important;
+}
+
+dl, ol, ul{
+    margin-bottom: 0px;
+    padding-left: 24px;
+}
+
+header{
+    background-color: #386641;
+    width: 100%;
+    position: relative;
+    
+}
+
+header .menu{
+    position: absolute;
+    right: 0px;
+    display: none;
+}
+
+header .mk{
+    margin-right: 30px;
+}
+
+header .ot{
+    margin-left: 30px;
+}
+
+header img{
+    height: 63px;
+    margin: 15px 50px 15px 50px;
+}
+
+header a{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    color: #FFFFFF;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    text-decoration: none;
+    transition: .5s;
+}
+
+header a::after{
+    content: "";
+    opacity: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+}
+
+header a:hover::after{
+    opacity: 1;
+}
+
+header a:hover{
+    color: #FFFFFF;
+    transform:scale(1.05);
+}
+
+.kr{
+    margin-top: 30px;
+}
+
+.cws{
+    margin-top: 30px;
+}
+
+.w-100{
+    width: 100%!important;
+}
+
+.carousel-indicators{
+    margin-bottom: 0px;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.carousel h5{
+    margin-bottom: 0px;
+    font-weight: 300;
+    font-size: 125px;
+}
+
+.carousel p{
+    font-weight: 400;
+    font-size: 43px;
+    margin-bottom: 150px;
+}
+
+.about-us{
+    background-color: #F2E8CF;
+    width: 100%;
+}
+
+.about-us h2{
+    font-size: 32px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    color: #000000;
+    padding: 68px 0px 40px 0px;
+}
+
+.about-us p{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 24px;
+    padding-bottom: 68px;
+    margin-bottom: 0px;
+}
+
+.mini-katalog{
+    background-color: #F7F2E5;
+    width: 100%;
+}
+
+.mini-katalog h2{
+    color: #000000;
+    font-size: 36px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    padding-top: 65px;
+    margin-bottom: 52px;
+}
+
+.tuya{
+    width: 286px;
+    display: inline-block;
+    transition: 1s;
+}
+
+.tuya:hover{
+    transform: translateY(-10px);
+}
+
+.tuya img{
+    width: 286px;
+    height: 210px;
+}
+
+.h5, h5{
+    font-size: 18px;
+    font-family: 'Open Sans';
+    font-size: 400;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+.btn-primary{
+    background-color: #A68A64;
+    border: 1px solid #A68A64;
+    border-radius: 15px;
+    margin: 18px 0px 18px 47px ;
+}
+
+.btn-primary:hover{
+    background-color: #8d7655;
+    border: 1px solid #8d7655;
+}
+
+.card-body{
+    background-color: #D4A373;
+    text-align: left;
+    border: solid 1px #D4A373;
+    border-radius: 0px;
+    padding: 0rem 1rem;
+}
+
+.bereza{
+    width: 286px;
+    display: inline-block;
+    margin: 0px 65px 0px 65px;
+    transition: 1s;
+}
+
+.bereza:hover{
+    transform: translateY(-10px);
+}
+
+.bereza img{
+    width: 286px;
+    height: 210px;
+}
+
+.bereza .btn-primary{
+    margin: 18px 0px 18px 108px;
+}
+
+.rozy{
+    width: 286px;
+    display: inline-block;
+    transition: 1s;
+}
+
+.rozy:hover{
+    transform: translateY(-10px);
+}
+
+.rozy img{
+    width: 286px;
+    height: 210px;
+}
+
+.rozy .btn-primary{
+    margin: 18px 0px 18px 43px;
+}
+
+.more a{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #D4A373;
+    background-color: #D4A373;
+    border-radius: 20px;
+    padding: 14px 46px 14px 45px;
+    margin: 84px 0px 98px 0px;
+    display: inline-block;
+    text-align: center;
+    transition: .5s;
+}
+
+.more a:hover{
+    background-color: #b68c61;
+    border: #b68c61 1px solid;
+    transform: scale(1.02);
+}
+
+.our__team{
+    background-color: #F2E8CF;
+    width: 100%;
+}
+
+.our__team h2{
+    font-family: 'Open Sans';
+    font-size: 36px;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+    padding-top: 45px;
+    margin-bottom: 52px;
+}
+
+.images img{
+    width: 530px;
+    height: 330px;
+    margin-bottom: 26px;
+    transition: 1s;
+}
+
+.images img:hover{
+    transform: scale(1.15);
+}
+
+.images .biginer{
+    margin-right: 500px;
+}
+
+.images .second{
+    margin-left: 500px;
+}
+
+.images .finaly{
+    margin-bottom: 54px;
+    margin-right: 500px;
+}
+
+footer{
+    background-color: #283618;
+}
+
+footer h2{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 34px;
+    color: #fff;
+    padding-top: 40px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+footer li{
+    text-align: left;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    margin-bottom: 14px; 
+}
+
+footer .telegram p{
+    display: inline-block
+}
+
+footer .telegram a {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block
+}
+
+footer .instagram p{
+    display: inline-block
+}
+
+footer .instagram a {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block
+}
+
+footer .first{
+    list-style-image: url(../images/apple.png);
+}
+
+footer .second{
+    list-style-image: url(../images/telegram.png);
+}
+
+footer .finaly{
+    list-style-image: url(../images/instagram.png);
+    margin-bottom: 0px;
+    padding-bottom: 58px;
+}
+
+@media(max-width: 1200px) {
+    .container{
+        max-width: 90%;
+    }
+
+    header .menu{
+        display: inline-block;
+    }
+
+    header a{
+        display: none;
+    }
+
+    .carousel h5{
+        font-size: 100px;
+    }
+
+    .carousel p{
+        font-size: 24px;
+        margin-bottom: 80px;
+    }
+
+    .bereza{
+        margin: 0px 10px;
+    }
+
+    .images .biginer{
+        margin-right: 300px;
+    }
+
+    .images .second{
+        margin-left: 300px;
+    }
+
+    .images .finaly{
+        margin-right: 300px;
+    }
+}
+
+@media(max-width: 800px) {
+    .carousel p{
+        margin-bottom: 40px;
+    }
+
+    .tuya{
+        display: block;
+        margin-bottom: 20px;
+        margin-left: 205px;
+        margin-right: 205px;
+    }
+
+    .bereza{
+        display: block;
+        margin: 0px 0px;
+        margin-bottom: 20px;
+        margin-left: 205px;
+        margin-right: 205px;
+    }
+
+    .rozy{
+        display: block;
+        margin-left: 205px;
+        margin-right: 205px;
+    }
+
+    .images .biginer{
+        margin-right: 0px;
+    }
+
+    .images .second{
+        margin-left: 0px;
+    }
+
+    .images .finaly{
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel p{
+        margin-bottom: 30px;
+    }
+
+    .about-us p{
+        font-size: 20px;
+    }
+
+    .tuya{
+        display: block;
+        margin-bottom: 20px;
+        margin-left: 190.6px;
+        margin-right: 190.6px;
+    }
+
+    .bereza{
+        display: block;
+        margin: 0px 0px;
+        margin-bottom: 20px;
+        margin-left: 190.6px;
+        margin-right: 190.6px;
+    }
+
+    .rozy{
+        display: block;
+        margin-left: 190.6px;
+        margin-right: 190.6px;
+    }
+
+    .images .biginer{
+        margin-right: 0px;
+    }
+
+    .images .second{
+        margin-left: 0px;
+    }
+
+    .images .finaly{
+        margin-right: 0px;
+    }
+}
+
+@media(max-width: 640px) {
+    .carousel h5{
+        font-size: 75px;
+    }
+
+    .tuya{
+        margin-left: 133px;
+        margin-right: 133px;
+    }
+
+    .bereza{
+        margin-left: 133px;
+        margin-right: 133px;
+    }
+
+    .rozy{
+        margin-left: 133px;
+        margin-right: 1133px;
+    }
+}
+
+@media(max-width: 600px) {
+    .carousel h5{
+        font-size: 75px;
+    }
+
+    .tuya{
+        margin-left: 115px;
+        margin-right: 115px;
+    }
+
+    .bereza{
+        margin-left: 115px;
+        margin-right: 115px;
+    }
+
+    .rozy{
+        margin-left: 115px;
+        margin-right: 115px;
+    }
+}
+
+@media(max-width: 540px){
+    .carousel p{
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+
+    .images img{
+        width: 350px;
+        height: 230px;
+    }
+
+    .tuya{
+        margin-left: 88px;
+        margin-right: 88px;
+    }
+
+    .bereza{
+        margin-left: 88px;
+        margin-right: 88px;
+    }
+
+    .rozy{
+        margin-left: 88px;
+        margin-right: 88px;
+    }
+}
+
+@media (max-width: 480px) {
+    header img{
+        height: 43px;
+    }
+
+    .carousel h5{
+        font-size: 48px;
+    }
+
+    .carousel p{
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+
+    .carousel-indicators [data-bs-target]{
+        width: 8px;
+        height: 8px;
+    }
+
+    .about-us h2{
+        font-size: 24px;
+    }
+
+    .about-us p{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .card{
+        width: 266px!important;
+    }
+
+    .btn-primary{
+        margin: 18px 0px 18px 25px;
+    }
+
+    .tuya img{
+        width: 264px;
+        height: 200px;
+    }
+
+    .bereza img{
+        width: 264px;
+        height: 200px;
+    }
+
+    .bereza .btn-primary{
+        margin: 18px 0px 18px 86px;
+    }
+
+    .rozy img{
+        width: 264px;
+        height: 200px;
+    }
+
+    .rozy .btn-primary{
+        margin: 18px 0px 18px 21px;
+    }
+
+    .more a{
+        font-size: 17px;
+    }
+
+    .images img{
+        width: 350px;
+        height: 230px;
+    }
+
+    .mini-katalog h2{
+        font-size: 24px;
+    }
+
+    .tuya{
+        display: inline-block;
+        margin-bottom: 20px;
+        margin-left: 36.2px;
+        margin-right: 36.2px;
+        width: 266px;
+    }
+
+    .bereza{
+        display: inline-block;
+        margin: 0px 0px;
+        margin-bottom: 20px;
+        margin-left: 36.2px;
+        margin-right: 36.2px;
+        width: 266px;
+    }
+
+    .rozy{
+        display: inline-block;
+        margin-left: 36.2px;
+        margin-right: 36.2px;
+        width: 266px;
+    }
+
+
+    .our__team h2{
+        font-size: 24px;
+    }
+
+    footer h2{
+        font-size: 24px;
+    }
+
+    footer p{
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 414px) {
+    .carousel p{
+        margin-bottom: 0px;
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 393px) {
+    .images img{
+        width: 250px;
+        height: 160px;
+    }
+}
+
+@media(max-width: 375px) {
+    header img{
+        height: 50px;
+    }
+
+    .carousel p{
+        margin-bottom: 0px;
+        font-size: 13px;
+    }
+
+    .tuya{
+        display: inline-block;
+        margin-bottom: 20px;
+        margin-left: 13.8px;
+        margin-right: 13.8px;
+    }
+
+    .bereza{
+        display: inline-block;
+        margin: 0px 0px;
+        margin-bottom: 20px;
+        margin-left: 13.8px;
+        margin-right: 13.8px;
+    }
+
+    .rozy{
+        display: inline-block;
+        margin-left: 13.8px;
+        margin-right: 13.8px;
+    }
+
+    .mini-katalog h2{
+        font-size: 24px;
+    }
+
+    .more a{
+        font-size: 18px;
+    }
+
+    .our__team h2{
+        font-size: 24px;
+    }
+
+    .images img{
+        width: 250px;
+        height: 160px;
+    }
+
+    footer h2{
+        font-size: 24px;
+    }
+
+    footer li{
+        font-size: 14px;
+    } 
+
+    footer .telegram a{
+        font-size: 14px;
+    }
+
+    footer .instagram a{
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 320px) {
+    .card{
+        width: 236px!important;
+    }
+
+    .carousel h5{
+        font-size: 36px;
+    }
+
+    .carousel p{
+        margin-bottom: 0px;
+        font-size: 10px;
+    }
+
+    .tuya{
+        display: inline-block;
+    }
+
+    .tuya img{
+        width: 234px;
+    }
+
+    .bereza{
+        display: inline-block;
+    }
+
+    .bereza img{
+        width: 234px;
+    }
+
+    .bereza .btn-primary{
+        margin: 5px 0px 10px 0px;
+    }
+
+    .rozy{
+        display: inline-block;
+    }
+
+    .rozy img{
+        width: 234px;
+    }
+
+    .rozy .btn-primary{
+        margin: 5px 0px 10px 0px;
+    }
+
+    .card-body{
+        text-align: center;
+    }
+
+    .card-title{
+        margin-top: 10px;
+    }
+
+    .btn-primary{
+        margin: 5px 0px 10px 0px;
+        display: block;
+    }
+}
